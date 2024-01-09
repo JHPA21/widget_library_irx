@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <corners android:radius="@dimen/slider_frame_radius" />
+            <size android:height="@dimen/slider_frame_height" />
+            <solid android:color="@color/dxp_slider_frame" />
+            <stroke
+                android:color="@color/dxp_slider_frame_stroke"
+                android:width="@dimen/slider_frame_stroke" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@android:id/background"
+        android:left="@dimen/padding_seekbar_slider"
+        android:right="@dimen/padding_seekbar_slider"
+        android:gravity="center_vertical|fill_horizontal">
+
+        <shape android:shape="rectangle" >
+            <corners android:radius="@dimen/bar_corner_radius" />
+            <size android:height="@dimen/bar_height" />
+            <solid android:color="@color/dxp_slider_background" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@android:id/progress"
+        android:left="@dimen/padding_seekbar_slider"
+        android:right="@dimen/padding_seekbar_slider"
+        android:gravity="center_vertical|fill_horizontal">
+
+        <scale android:scaleWidth="100%">
+            <shape
+                android:shape="rectangle">
+                <corners android:radius="@dimen/bar_corner_radius" />
+                <size android:height="@dimen/bar_height" />
+                <solid android:color="@color/primary" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

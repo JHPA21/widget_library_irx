@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="parent_layout_padding">8dp</dimen> <!-- 16px -->
+    <dimen name="toggle_center_margin_start">8dp</dimen> <!-- 16px -->
+    <dimen name="toggle_center_margin_end">8dp</dimen> <!-- 16px -->
+</resources>

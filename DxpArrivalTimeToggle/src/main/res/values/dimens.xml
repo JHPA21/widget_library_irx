@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arrival_time_height">48dp</dimen> <!-- 96px -->
+    <dimen name="arrival_time_clock_margin_end">8dp</dimen> <!-- 16px -->
+    <dimen name="arrival_time_clock_margin_start">26dp</dimen> <!-- 52px -->
+    <dimen name="arrival_time_divider_margin_start">8dp</dimen> <!-- 16px -->
+    <dimen name="arrival_time_divider_margin_end">8dp</dimen> <!-- 16px -->
+    <dimen name="arrival_time_divider_width">2dp</dimen> <!-- 2px -->
+    <dimen name="arrival_time_divider_height">16dp</dimen> <!-- 25px -->
+    <dimen name="arrival_time_txt_right_margin_end">26dp</dimen> <!-- 52px -->
+    <dimen name="arrival_time_radius">50dp</dimen> <!-- 100px -->
+    <dimen name="arrival_time_border_width">1dp</dimen> <!-- 2px -->
+    <dimen name="arrival_time_text_padding_bottom">1.50dp</dimen> <!-- 3px -->
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_text_btn_width">166dp</dimen>
+    <dimen name="icon_text_btn_height">64dp</dimen>
+    <dimen name="icon_text_btn_radius">50dp</dimen>
+    <dimen name="text_btn_padding_left">20dp</dimen>
+    <dimen name="text_btn_extra_padding_left">6dp</dimen>
+    <dimen name="icon_btn_padding_left">8dp</dimen>
+    <dimen name="icon_btn_extra_padding_left">16dp</dimen>
+</resources>

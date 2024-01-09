@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_height">8dp</dimen>
+    <dimen name="bar_corner_radius">4dp</dimen>
+    <dimen name="thumb_size">26dp</dimen>
+    <dimen name="padding_seekbar_slider">30dp</dimen>
+    <dimen name="slider_frame_radius">36dp</dimen>
+    <dimen name="slider_frame_height">48dp</dimen>
+    <dimen name="slider_frame_stroke">1dp</dimen>
+    <dimen name="slider_thumb_stroke">1dp</dimen>
+</resources>

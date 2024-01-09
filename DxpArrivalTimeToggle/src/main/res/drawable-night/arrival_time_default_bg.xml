@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/arrival_time_default" />
+    <corners android:radius="@dimen/arrival_time_radius" />
+    <stroke
+        android:color="@color/arrival_time_border"
+        android:width="@dimen/arrival_time_border_width" />
+</shape>

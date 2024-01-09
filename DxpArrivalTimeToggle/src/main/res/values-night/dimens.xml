@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arrival_time_divider_width">1dp</dimen> <!-- 2px -->
+    <dimen name="arrival_time_divider_height">12.50dp</dimen> <!-- 25px -->
+</resources>

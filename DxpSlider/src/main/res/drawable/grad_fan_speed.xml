@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scaleWidth="100%">
+        <shape
+            android:shape="rectangle">
+                <corners android:radius="@dimen/bar_corner_radius" />
+                <size android:height="@dimen/bar_height" />
+                <gradient
+                    android:startColor="#00E7D9"
+                    android:endColor="#00C6E1"
+                    android:type="linear"
+                    android:angle="180"
+                    />
+        </shape>
+</scale>

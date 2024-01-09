@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neutral_button_text">@color/primaryInverse</color>
+    <color name="neutral_button_default">@color/primary</color>
+    <color name="neutral_button_pressed">@color/secondary</color>
+    <color name="neutral_button_disabled">@color/secondaryTransparency</color>
+
+    <color name="transparent_button_text">@color/primary</color>
+    <color name="transparent_button_default">@android:color/transparent</color>
+    <color name="transparent_button_pressed">@color/secondaryTransparency</color>
+    <color name="transparent_button_disabled">@android:color/transparent</color>
+    <color name="transparent_button_text_disabled">@color/tertiary</color>
+
+    <color name="action_button_text">@color/primary</color>
+    <color name="action_button_default">@color/primaryInverse</color>
+    <color name="action_button_pressed">@color/secondaryTransparency</color>
+    <color name="action_button_disabled">@color/secondaryTransparency</color>
+    <color name="action_button_text_disabled">@color/primaryInverse</color>
+    
+    <color name="go_button_text">@android:color/white</color>
+    <color name="go_button_default">@color/brand_001</color>
+    <color name="go_button_pressed">@color/brand_002</color>
+    <color name="go_button_disabled">@color/secondaryTransparency</color>
+    <color name="go_button_text_disabled">@color/secondaryTransparency</color>
+    <color name="go_button_border">@color/borderPrimaryTransparency</color>
+
+    <color name="alert_button_text">#FFFFFF</color>
+    <color name="alert_button_default">@color/negative_001</color>
+    <color name="alert_button_pressed">@color/negative_002</color>
+    <color name="alert_button_disabled">@color/secondaryTransparency</color>
+    <color name="alert_button_text_disabled">@color/primaryInverse</color>
+
+    <color name="transparent_alert_button_text">@color/negative_001</color>
+    <color name="transparent_alert_button_default">@android:color/transparent</color>
+    <color name="transparent_alert_button_pressed">@color/secondaryTransparency</color>
+    <color name="transparent_alert_button_disabled">@android:color/transparent</color>
+    <color name="transparent_alert_button_text_disabled">@color/tertiary</color>
+
+    <color name="positive_button_text">#FFFFFF</color>
+    <color name="positive_button_default">@color/positive_001</color>
+    <color name="positive_button_pressed">@color/positive_002</color>
+    <color name="positive_button_disabled">@color/secondaryTransparency</color>
+    <color name="positive_button_text_disabled">@color/primaryInverse</color>
+</resources>

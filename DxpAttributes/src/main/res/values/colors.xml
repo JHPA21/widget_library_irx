@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Foundation -->
+    <color name="primary">#000000</color>
+    <color name="secondary">#404040</color>
+    <color name="tertiary">#919191</color>
+    <color name="primaryInverse">#FFFFFF</color>
+    <color name="positive_001">#13A467</color>
+    <color name="positive_002">#008753</color>
+    <color name="negative_001">#DA1E28</color>
+    <color name="negative_002">#AD2428</color>
+    <color name="warning_001">#FFD335</color>
+    <color name="warning_002">#BFA42F</color>
+    <color name="brand_001">#3053EB</color>
+    <color name="brand_002">#5B94FF</color>
+    <color name="accent_001">#FFBB41</color>
+    <color name="accent_002">#FFCB6C</color>
+
+    <color name="drop_shadow">#C2D0DB</color>
+
+    <!-- Backgrounds -->
+    <color name="primaryTransparency">#4DFFFFFF</color>
+    <color name="secondaryTransparency">#26000000</color>
+    <color name="tertiaryTransparency">#99FFFFFF</color>
+    <color name="primaryTransparency_videoList">#CC000000</color>
+    <color name="secondaryTransparency_videoList">#D9FFFFFF</color>
+    <color name="selected">@color/primary</color>
+
+    <color name="drawer_bg">#F8F8F8</color>
+    <color name="screen_bg">#F4F4F4</color>
+    <color name="text_label_bg">#102B4E</color>
+    <color name="overlay">#66000000</color>
+
+    <!-- Border -->
+    <color name="borderPrimaryTransparency">#26000000</color>
+    <color name="borderSecondaryTransparency">#26000000</color>
+
+    <!-- Progress Bar -->
+    <color name="progress_fill">#9A9FA9</color>
+
+    <!-- Text -->
+    <color name="text_display">@color/primary</color>
+    <color name="text_headline">@color/primary</color>
+    <color name="text_body">@color/primary</color>
+    <color name="text_caption">@color/primary</color>
+    <color name="text_label">@color/primary</color>
+    <color name="text_link">#FFBB41</color>
+
+    <!-- Text Button -->
+    <color name="text_btn">#056DDE</color>
+    <color name="text_btn_disabled">#D8D8D8</color>
+    <color name="text_pressed_bg">#DEE4E9</color>
+
+    <!-- Icon Button & Toggle Switch -->
+    <color name="icon_default">#102B4E</color>
+    <color name="icon_pressed_bg">#DEE4E9</color>
+    <color name="icon_selected_bg">#102B4E</color>
+    <color name="icon_disabled">#FFFFFF</color>
+
+    <!-- Navigation Bar -->
+    <color name="nav_bg_top">#FFFFFF</color>
+    <color name="nav_bg_bottom">#F4F4F4</color>
+    <color name="nav_bg_shadow">#C2D0D8</color>
+    <color name="nav_bg">#FCFCFC</color>
+
+    <!--Pin pad-->
+    <color name="pin_display_bg">@color/primary</color>
+
+    <!--Map-->
+    <color name="route_pulse">#33102B4E</color>
+
+    <!-- TRANSPARENT -->
+    <color name="transparent_btn_default">#00000000</color>
+    <color name="transparent_btn_pressed">#C2D0DB</color>
+
+    <!-- DxpSlider colors -->
+    <color name="dxp_slider_icon">#000000</color>
+    <color name="dxp_slider_icon_disabled">#20000000</color>
+    <color name="dxp_slider_frame_disabled">#FFFFFF</color>
+    <color name="dxp_slider_frame_stroke_disabled">#80000000</color>
+    <color name="dxp_slider_background_disabled">#C0C0C0</color>
+    <color name="dxp_slider_frame">#4DFFFFFF</color>
+    <color name="dxp_slider_frame_stroke">#26000000</color>
+    <color name="dxp_slider_background">#26000000</color>
+    <color name="dxp_slider_thumb_stroke">#27000000</color>
+    <color name="dxp_slider_thumb_start">#D9D9D9</color>
+    <color name="dxp_slider_thumb_end">#F4F4F4</color>
+
+    <!-- No change text color types on day/night -->
+    <color name="black_static">#000000</color>
+    <color name="white_static">#FFFFFF</color>
+    <color name="headline_light">#000658</color>
+    <color name="grey_scale_icon">#000658</color>
+    <color name="grey_scale_white">#F8F9FA</color>
+    <color name="grey_scale_content_tertiary">#9AA0A6</color>
+</resources>

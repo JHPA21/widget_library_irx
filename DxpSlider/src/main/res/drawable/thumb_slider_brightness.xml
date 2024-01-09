@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+
+    <stroke
+        android:color="@color/dxp_slider_thumb_stroke"
+        android:width="@dimen/slider_thumb_stroke" />
+
+    <gradient
+        android:gradientRadius="50%"
+        android:centerX="0"
+        android:startColor="@color/dxp_slider_thumb_start"
+        android:endColor="@color/dxp_slider_thumb_end"
+        android:type="radial"
+        android:angle="0"
+        />
+
+    <size
+        android:width="64dp"
+        android:height="64dp" />
+</shape>

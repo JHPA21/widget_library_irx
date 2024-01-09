@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dxp_icon_button_margin">5dp</dimen> <!-- 10px -->
+    <dimen name="background_line_width">1dp</dimen> <!-- 2px -->
+    <dimen name="background_radius">42dp</dimen> <!-- 84px -->
+</resources>

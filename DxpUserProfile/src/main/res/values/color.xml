@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="circle_border_enabled">@color/tertiaryTransparency</color>
+    <color name="circle_border_voice_detected">@color/brand_002</color>
+</resources>

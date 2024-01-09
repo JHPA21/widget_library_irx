@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="arrival_time_default">@color/primaryTransparency</color>
+    <color name="arrival_time_pressed">@color/secondaryTransparency</color>
+    <color name="arrival_time_active">@color/primary</color>
+    <color name="arrival_time_disabled">@color/secondaryTransparency</color>
+    <color name="arrival_time_border">@color/borderPrimaryTransparency</color>
+    <color name="arrival_time_divider">@color/grey_scale_content_tertiary</color>
+    <color name="arrival_time_divider_active">@color/primaryInverse</color>
+    <color name="arrival_time_icon_default">@color/primary</color>
+    <color name="arrival_time_icon_active">@color/primaryInverse</color>
+    <color name="arrival_time_icon_disabled">@color/secondaryTransparency</color>
+    <color name="arrival_time_text_disabled">@color/secondaryTransparency</color>
+    <color name="arrival_time_text_default">@color/primary</color>
+    <color name="arrival_time_text_active">@color/primaryInverse</color>
+</resources>

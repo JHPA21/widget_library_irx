@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GlobalAttrDeclare">
+        <attr name="fontType" format="enum">
+            <enum name="regular" value="0"/>
+            <enum name="medium" value="1"/>
+            <enum name="bold" value="2"/>
+            <enum name="regular_cond" value="3"/>
+            <enum name="medium_cond" value="4"/>
+            <enum name="medium_ex_cond" value="5"/>
+            <enum name="cond" value="6"/>
+        </attr>
+        <attr name="textSizeType" format="enum">
+            <enum name="xxsmall" value="0"/>
+            <enum name="xsmall" value="1"/>
+            <enum name="small" value="2"/>
+            <enum name="medium" value="3"/>
+            <enum name="large" value="4"/>
+            <enum name="xlarge" value="5"/>
+            <enum name="xxlarge" value="6"/>
+            <enum name="xxxlarge" value="7"/>
+            <enum name="xxxxlarge" value="8"/>
+        </attr>
+        <attr name="textColorType" format="enum">
+            <enum name="neutral_inverse" value="0" />
+            <enum name="positive" value="1" />
+            <enum name="black_static" value="2" />
+            <enum name="white_static" value="3" />
+            <enum name="headline_light" value="4" />
+        </attr>
+        <attr name="textType" format="enum">
+            <enum name="h1" value="0" /> <!-- Display 700 -->
+            <enum name="h2" value="1" /> <!-- Headline 500 -->
+            <enum name="h3" value="2" /> <!-- Headline 400 -->
+            <enum name="h4" value="3" /> <!-- Headline 300 -->
+            <enum name="h5" value="4" /> <!-- Headline 200 -->
+            <enum name="p1" value="5" /> <!-- Body 400 -->
+            <enum name="p2" value="6" /> <!-- Body 300 -->
+            <enum name="p3" value="7" /> <!-- Body 200 -->
+            <enum name="p4" value="8" /> <!-- Body 100 -->
+            <enum name="p5" value="9" /> <!-- Caption 300 -->
+            <enum name="p6" value="10" /> <!-- Caption 200 -->
+            <enum name="p7" value="11" /> <!-- Caption 100 -->
+            <enum name="l1" value="12" /> <!-- Label 500 -->
+            <enum name="l2" value="13" /> <!-- Label 300 -->
+            <enum name="l3" value="14" /> <!-- Label 200 -->
+            <enum name="l4" value="15" /> <!-- Link 300 -->
+            <enum name="l5" value="16" /> <!-- Link 200 -->
+            <enum name="l6" value="17" /> <!-- Link 100 -->
+            <enum name="p8" value="18" /> <!-- Caption 400 -->
+            <enum name="h6" value="19"/> <!-- Display 600 -->
+            <enum name="h7" value="20"/> <!-- Headline 350 -->
+            <enum name="b5" value="21"/> <!-- Body 500 -->
+            <enum name="b5l" value="22"/> <!-- Body 500 map tile subtitle new light theme l -> stands for light theme -->
+        </attr>
+        <attr name="type" format="enum">
+            <enum name="sm_pill" value="0" />
+            <enum name="lg_pill" value="1" />
+            <enum name="xs_circle" value="2" />
+            <enum name="sm_circle" value="3" />
+            <enum name="lg_circle" value="4" />
+            <enum name="sm_pill_no_width" value="5" />
+            <enum name="md_circle" value="6" />
+            <enum name="square" value="7" />
+        </attr>
+        <attr name="style" format="enum">
+            <enum name="neutral" value="0" />
+            <enum name="action" value="1" />
+            <enum name="alert" value="2" />
+            <enum name="go" value="3" />
+            <enum name="indented" value="4" />
+            <enum name="outlined" value="5" />
+            <enum name="transparent" value="6" />
+            <enum name="transparent_alert" value="7" />
+            <enum name="positive" value="8" />
+        </attr>
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical_flipped" value="2"/>
+            <enum name="horizontal_flipped" value="3"/>
+        </attr>
+        <attr name="iconTextButtonType" format="enum">
+            <enum name="button" value="0"/>
+            <enum name="radio" value="1"/>
+        </attr>
+        <attr name="iconTextButtonStyle" format="enum">
+            <enum name="neutral" value="0"/>
+            <enum name="alert" value="1"/>
+        </attr>
+        <attr name="selectedTint" format="reference"/>
+        <attr name="allowDeselect" format="boolean"/>
+        <attr name="skipTintIcon" format="boolean"/>
+        <attr name="progressBarDrawable" format="reference"/>
+        <attr name="switchThumb" format="reference" />
+        <attr name="switchTrack" format="reference" />
+        <attr name="horizontalPadding" format="dimension" />
+        <attr name="verticalPadding" format="dimension" />
+
+        <attr name="textLeft" format="string" />
+        <attr name="textCenter" format="string" />
+        <attr name="textRight" format="string" />
+    </declare-styleable>
+    <!-- Text View attributes -->
+    <declare-styleable name="DxpTextView">
+        <attr name="fontType"/>
+        <attr name="textSizeType"/>
+        <attr name="textColorType"/>
+        <attr name="textType"/>
+    </declare-styleable>
+    <!-- Text Button attributes -->
+    <declare-styleable name="DxpTextButton">
+        <attr name="type" />
+        <attr name="style" />
+        <attr name="fontType" />
+        <attr name="textSizeType" />
+        <attr name="textType" />
+    </declare-styleable>
+    <!-- Toggle Switch attributes -->
+    <declare-styleable name="DxpToggleSwitch">
+        <attr name="switchThumb" />
+        <attr name="switchTrack" />
+        <attr name="horizontalPadding" />
+        <attr name="verticalPadding" />
+    </declare-styleable>
+    <!-- Progress Indicator attributes -->
+    <declare-styleable name="DxpProgressIndicator">
+        <attr name="maxProgress" format="integer" />
+        <attr name="currentProgress" format="integer" />
+        <attr name="showPreviousProgress" format="boolean" />
+        <attr name="indicatorType" format="enum">
+            <enum name="pin_pad" value="0" />
+            <enum name="page_indicator" value="1" />
+        </attr>
+    </declare-styleable>
+    <!-- Progress Bar attributes -->
+    <declare-styleable name="DxpProgressBar">
+        <attr name="progressBarDrawable"/>
+    </declare-styleable>
+    <!-- DxpIconTextRadioButton attributes -->
+    <declare-styleable name="DxpIconTextRadioButton">
+        <attr name="icon"/>
+        <attr name="selectedTint"/>
+        <attr name="iconTextButtonType"/>
+        <attr name="iconTextButtonStyle"/>
+        <attr name="allowDeselect"/>
+        <attr name="skipTintIcon"/>
+        <attr name="fontType"/>
+        <attr name="textSizeType"/>
+    </declare-styleable>
+    <!-- DxpIconButton attributes -->
+    <declare-styleable name="DxpIconButton">
+        <attr name="type" />
+        <attr name="style" />
+        <attr name="drawShadow" format="boolean"/>
+        <attr name="defaultDimensOnSelector" format="boolean"/>
+    </declare-styleable>
+    <!-- DxpDivider attributes -->
+    <declare-styleable name="DxpDivider">
+        <attr name="android:enabled" format="boolean" />
+        <attr name="typeSize"  format="enum">
+            <enum name="xs" value="0" />
+            <enum name="sm" value="1" />
+            <enum name="md" value="2" />
+            <enum name="lg" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!-- DxpTextToggle attributes -->
+    <declare-styleable name="DxpTextToggle">
+        <attr name="textLeft" />
+        <attr name="textCenter" />
+        <attr name="textRight" />
+        <attr name="hideCenterButton" format="boolean" />
+        <attr name="toggleType" format="string"/> <!-- Todo temporal attr to coexist with previous widgets -->
+        <attr name="fontType" />
+        <attr name="textType" />
+    </declare-styleable>
+
+    <!-- DxpNavBarButton -->
+    <declare-styleable name="DxpNavBarButton">
+        <attr name="icon" />
+        <attr name="style" />
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="DxpIncrementer">
+        <attr name="maxValue" format="integer" />
+        <attr name="minValue" format="integer" />
+        <attr name="currentValue" format="integer" />
+    </declare-styleable>
+
+    <!-- DxpSlider -->
+    <declare-styleable name="DxpSlider">
+        <attr name="sliderType" format="enum">
+            <enum name="brightness" value="0" />
+            <enum name="temperature" value="1" />
+            <enum name="fanSpeed" value="2" />
+            <enum name="volume" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DxpUserProfile">
+        <attr name="isRounded" format="boolean" />
+        <attr name="border_width" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="DxpSpecialButton">
+        <attr name="android:text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DxpIconTextButton">
+        <attr name="android:text" format="string"/>
+        <attr name="android:enabled" format="boolean"/>
+        <attr name="icon" format="reference"/>
+        <attr name="isIconRounded" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DxpArrivalTimeToggle">
+        <attr name="textLeft" />
+        <attr name="textRight" />
+        <attr name="android:enabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DxpToggleButton">
+        <attr name="fontType" />
+        <attr name="textType" />
+    </declare-styleable>
+
+    <!-- Exposed attributes -->
+    <attr name="primary" format="reference|color" />
+    <attr name="brand_001" format="reference|color" />
+    <attr name="brand_002" format="reference|color" />
+
+</resources>

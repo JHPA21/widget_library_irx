@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="special_btn_width">190dp</dimen> <!-- 380px -->
+    <dimen name="special_btn_height">50dp</dimen> <!-- 100px -->
+    <dimen name="special_btn_radius">25dp</dimen> <!-- 50px -->
+    <dimen name="special_btn_border">1dp</dimen> <!-- 2px -->
+</resources>

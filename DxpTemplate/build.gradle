@@ -1,0 +1,6 @@
+// Add the block below into the app-level project build.gradle
+dependencies {
+    
+    // AAR Projects
+    {{IMPLEMENTATION_BLOCK}}
+}

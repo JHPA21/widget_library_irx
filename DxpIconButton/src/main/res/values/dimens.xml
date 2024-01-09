@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circle_btn_xsmall">27.50dp</dimen> <!-- 55px -->
+    <dimen name="circle_btn_small">32dp</dimen> <!-- 64px -->
+    <dimen name="circle_btn_medium">48dp</dimen> <!-- 96px -->
+    <dimen name="circle_btn_large">50dp</dimen> <!-- 100px -->
+    <dimen name="square_btn_width">52dp</dimen> <!-- 132px -->
+    <dimen name="square_btn_height">62dp</dimen> <!-- 132px -->
+    <dimen name="square_btn_radius">4.3dp</dimen> <!-- 9.16px -->
+    <dimen name="circle_border_btn_width">1dp</dimen> <!-- 2px -->
+</resources>

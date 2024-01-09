@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pill_btn_default">@android:color/transparent</color>
+    <color name="pill_btn_text_default">@color/primary</color>
+    <color name="pill_btn_pressed">@color/secondaryTransparency</color>
+    <color name="pill_btn_selected">@color/primary</color>
+    <color name="pill_btn_text_selected">@color/primaryInverse</color>
+    <color name="pill_btn_disabled">@android:color/transparent</color>
+    <color name="pill_btn_text_disabled">@color/tertiary</color>
+</resources>

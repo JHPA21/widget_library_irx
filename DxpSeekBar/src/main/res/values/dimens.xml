@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_width">270dp</dimen> <!-- 540px -->
+    <dimen name="bar_height">7dp</dimen> <!-- 14px -->
+    <dimen name="bar_corner_radius">5dp</dimen> <!-- 10px -->
+    <dimen name="thumb_size">17dp</dimen> <!-- 34px -->
+    <dimen name="padding_left">36dp</dimen>
+    <dimen name="padding_right">36dp</dimen>
+</resources>

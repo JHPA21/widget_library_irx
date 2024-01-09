@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/parent_layout_padding"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/border_line" >
+
+    <com.ford.avsdm.corewidgetlib.togglebutton.DxpToggleButton
+        android:id="@+id/txt_toggle_button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+    <com.ford.avsdm.corewidgetlib.togglebutton.DxpToggleButton
+        android:id="@+id/txt_toggle_button_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/toggle_center_margin_start"
+        android:layout_marginEnd="@dimen/toggle_center_margin_end"
+        android:gravity="center"
+        />
+
+    <com.ford.avsdm.corewidgetlib.togglebutton.DxpToggleButton
+        android:id="@+id/txt_toggle_button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+</LinearLayout>

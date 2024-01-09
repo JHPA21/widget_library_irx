@@ -1,0 +1,75 @@
+<resources>
+    <!-- Custom Text Styles -->
+    <style name="TextStyle" parent="@android:style/Widget.TextView">
+       <item name="android:fontFamily">@font/ford_antenna_medium</item>
+   </style>
+    <style name="TextStyle.Display_700">
+        <item name="android:textSize">@dimen/display_700_text_size</item>
+        <item name="android:textColor">@color/text_display</item>
+    </style>
+   <style name="TextStyle.Headline_500">
+       <item name="android:textSize">@dimen/headline_500_text_size</item>
+       <item name="android:textColor">@color/text_headline</item>
+   </style>
+   <style name="TextStyle.Headline_400">
+       <item name="android:textSize">@dimen/headline_400_text_size</item>
+       <item name="android:textColor">@color/text_headline</item>
+   </style>
+   <style name="TextStyle.Headline_300">
+       <item name="android:textSize">@dimen/headline_300_text_size</item>
+       <item name="android:textColor">@color/text_headline</item>
+   </style>
+   <style name="TextStyle.Headline_200">
+       <item name="android:textSize">@dimen/headline_200_text_size</item>
+       <item name="android:textColor">@color/text_headline</item>
+   </style>
+    <style name="TextStyle.Body_300">
+        <item name="android:textSize">@dimen/body_300_text_size</item>
+        <item name="android:textColor">@color/text_body</item>
+    </style>
+   <style name="TextStyle.Body_200">
+       <item name="android:textSize">@dimen/body_200_text_size</item>
+       <item name="android:textColor">@color/text_body</item>
+   </style>
+    <style name="TextStyle.Body_100">
+        <item name="android:textSize">@dimen/body_100_text_size</item>
+        <item name="android:textColor">@color/text_body</item>
+    </style>
+    <style name="TextStyle.Caption_300">
+        <item name="android:textSize">@dimen/caption_300_text_size</item>
+        <item name="android:textColor">@color/text_caption</item>
+    </style>
+    <style name="TextStyle.Caption_200">
+        <item name="android:textSize">@dimen/caption_200_text_size</item>
+        <item name="android:textColor">@color/text_caption</item>
+    </style>
+    <style name="TextStyle.Caption_100">
+        <item name="android:textSize">@dimen/caption_100_text_size</item>
+        <item name="android:textColor">@color/text_caption</item>
+    </style>
+    <style name="TextStyle.Label_500">
+        <item name="android:textSize">@dimen/label_500_text_size</item>
+        <item name="android:textColor">@color/text_label</item>
+    </style>
+    <style name="TextStyle.Label_300">
+        <item name="android:textSize">@dimen/label_300_text_size</item>
+        <item name="android:textColor">@color/text_label</item>
+    </style>
+    <style name="TextStyle.Label_100">
+        <item name="android:textSize">@dimen/label_100_text_size</item>
+        <item name="android:textColor">@color/text_label</item>
+    </style>
+    <style name="TextStyle.Link_300">
+        <item name="android:textSize">@dimen/link_300_text_size</item>
+        <item name="android:textColor">@color/text_link</item>
+    </style>
+    <style name="TextStyle.Link_200">
+        <item name="android:textSize">@dimen/link_200_text_size</item>
+        <item name="android:textColor">@color/text_link</item>
+    </style>
+    <style name="TextStyle.Link_100">
+        <item name="android:textSize">@dimen/link_100_text_size</item>
+        <item name="android:textColor">@color/text_link</item>
+    </style>
+
+</resources>

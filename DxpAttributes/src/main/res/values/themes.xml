@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CustomApplicationTheme" parent="Theme.AppCompat.DayNight">
+        <item name="primary">@color/primary</item>
+        <item name="brand_001">@color/brand_001</item>
+        <item name="brand_002">@color/brand_002</item>
+    </style>
+</resources>

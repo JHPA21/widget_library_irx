@@ -1,0 +1,22 @@
+<resources>
+    <!-- DxpUserProfile Strings -->
+    <string name="user_profile_name">Sarah K</string>
+    <!-- DxpDoorDisplay Strings -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="open_trunk">Open Trunk</string>
+    <string name="close_trunk">Close Trunk</string>
+    <!-- DxpCountdownTimer Strings -->
+    <string name="countdown_remaining_time">1:30</string>
+    <!-- DxpCommonLayouts Strings -->
+    <string name="help_prompt_title_text">How can we help?</string>
+    <string name="help_prompt_speak_to_us">Speak to us</string>
+    <string name="help_prompt_faq">FAQ</string>
+    <string name="help_prompt_report_an_issue">Report an issue</string>
+    <string name="departure_text">Time to departure</string>
+    <!-- DxpBackButton Strings -->
+    <string name="dxp_back_btn_text">Back</string>
+    <!-- DxpArrivalTimePill Strings -->
+    <string name="arrival_time_pill_eta">ETA %s</string>
+    <string name="arrival_time_eta">ETA 9:24 AM</string>
+</resources>

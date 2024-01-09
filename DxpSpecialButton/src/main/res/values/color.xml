@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="special_btn_default">@color/brand_001</color>
+    <color name="special_btn_pressed">@color/brand_002</color>
+    <color name="special_btn_border">@color/borderPrimaryTransparency</color>
+    <color name="special_btn_disabled">@color/secondaryTransparency</color>
+</resources>

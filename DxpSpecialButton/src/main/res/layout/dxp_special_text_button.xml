@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/special_btn_width"
+    android:layout_height="@dimen/special_btn_height"
+    android:background="@drawable/selector_special_text_button">
+
+    <com.ford.avsdm.corewidgetlib.textview.DxpTextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        app:textType="h4"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="@dimen/special_btn_radius"
+        app:cardBackgroundColor="@android:color/transparent">
+        <ImageView
+            android:id="@+id/img_shining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-66.50dp"
+            android:src="@drawable/ic_glare_shape"
+            />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

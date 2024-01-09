@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/background_incrementer">
+
+    <com.ford.avsdm.corewidgetlib.iconbutton.DxpIconButton
+        android:id="@+id/btnPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dxp_icon_button_margin"
+        android:src="@drawable/ic_zoom_in"
+        app:type="sm_circle"
+        app:style="outlined"
+        />
+
+    <com.ford.avsdm.corewidgetlib.iconbutton.DxpIconButton
+        android:id="@+id/btnMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dxp_icon_button_margin"
+        android:src="@drawable/ic_zoom_out"
+        app:type="sm_circle"
+        app:style="outlined"
+        />
+</LinearLayout>
